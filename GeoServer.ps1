@@ -1,6 +1,6 @@
 Clear-Host
 
-$tier_id = "XXX"
+$tier_id = "XXXX"
 $service_name = "GeoServer"
 $metric_name = "Availability"
 $metric_prefix = "name=Server|Component:$tier_id|Custom Metrics|Service Availability|$service_name|$metric_name,"
