@@ -7,7 +7,7 @@ It sends a GET request (using a pre-defined frequency) to the URL, if the respon
 
 This Service Availability monitoring extension come in handy when you need to monitor service availability and you have not purchased the AppDynamics Service Availability License. 
 
-This extension is written in Powershell. Use  [ URL Monitoring extension](https://www.appdynamics.com/community/exchange/extension/url-monitoring-extension/) if you prefer Java based extension. 
+This extension is written in Powershell. 
 
 ### Installation 
 copy the extension into MACHINE_AGENT_HOME/monitors, change the URL in the script and restart the machine agent.
