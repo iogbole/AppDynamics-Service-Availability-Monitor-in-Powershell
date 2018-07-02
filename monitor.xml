@@ -1,0 +1,21 @@
+<monitor>
+    <name>AppDynamics Service Availability</name>
+       <type>managed</type>
+        <enabled>true</enabled>
+        <description>Monitor GeoServer and SNOW Service</description>
+        <monitor-configuration></monitor-configuration>
+        <monitor-run-task>
+        <execution-style>periodic</execution-style> 
+         <execution-frequency-in-seconds>1800</execution-frequency-in-seconds> 
+         <execution-timeout-in-secs>600</execution-timeout-in-secs>
+           <name>AppDynamicsServiceAvailability</name>
+           <type>executable</type>
+           <task-arguments>
+           
+          </task-arguments>
+            <executable-task>
+                <type>file</type>
+                 <file os-type="windows">run.bat</file>
+           </executable-task>
+         </monitor-run-task>
+</monitor>
